@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+body{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+.title{
+    font-family: serif;
+}
