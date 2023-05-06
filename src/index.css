@@ -11,3 +11,20 @@ body{
 .title{
     font-family: serif;
 }
+
+.blur{
+    background: rgba(46, 240, 240, 0.801);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(120px);
+    z-index: -4;
+  
+  }
+  .blur-1{
+    background: rgba(209, 189, 11, 0.801);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(120px);
+    z-index: -4;
+  }
+  

@@ -25,15 +25,12 @@ li{
 }
 .nav-link{
   color: white;
+  cursor: pointer;
 }
 .nav-link:hover{
 color: skyblue;
 }
-.nav-link:active{
-  border-bottom: 1px white;
-  transform: translateX(100%);
-    transition: 0.8s ease;
-}
+
 .toggler-icon{
   cursor: pointer;
   display: none;
@@ -51,12 +48,12 @@ font-weight: bold;
   
   .toggler-icon{
     display: block;
-    z-index: 10;
+    z-index: 30;
   }
   
   .nav-menu{
     position: fixed;
-    background: rgba(8, 136, 211, 0.747);
+    background: rgba(6, 109, 194, 0.787);
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -67,7 +64,8 @@ font-weight: bold;
     border-radius: 5px;
     transform: translateX(100%);
     transition: 0.8s ease;
-    z-index: 5;
+    z-index: 20;
+
     
   }
   .nav-link{

@@ -1,15 +1,21 @@
 import React from 'react'
 import Navbar from './components/navbar/Navbar'
-import Hero from './components/Screens/Hero'
-import Register from './components/Screens/Register'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Vendors from './components/Screens/Vendors'
+import Home from './components/Home'
 
 const App = () => {
   return (
-   <div>
+    <>
+   <Router>
    <Navbar />
-   <Hero />
-   <Register />
-   </div>
+    <Routes>
+   <Route path='/' element={<Home />} />
+   <Route path='/vendors' element={<Vendors />} />
+   </Routes>
+
+   </Router>
+   </>
   )
 }
 

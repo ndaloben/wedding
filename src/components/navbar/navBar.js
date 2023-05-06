@@ -1,9 +1,5 @@
 const topNav = [
-    {
-        id: 1, 
-        label: 'Home',
-        href: '/'
-    },
+    
     {
         id: 2, 
         label: 'Resources',

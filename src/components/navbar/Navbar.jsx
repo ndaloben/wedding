@@ -24,7 +24,7 @@ const Navbar = () => {
     };
 
   return (
-    <div className="fixed top-0 w-screen py-2 flex items-center justify-between lg:px-20 px-4 bg-[blue]">
+    <div className="fixed z-10 top-0 w-screen py-2 flex items-center justify-between lg:px-20 px-4 bg-[blue]">
         <a href="/">
                 <span className='title text-5xl text-white font-bold'>doros</span>
             </a>
@@ -32,8 +32,7 @@ const Navbar = () => {
             <ul className={collapse}>
                 {navItems.map(item => 
                 <li key={item.id}className="nav-item">
-                <a href={item.href} className="nav-link">{item.label}
-                </a>
+                <a href={item.href} className="nav-link">{item.label} </a>
                </li>
                     )}
                     <button className='px-2 rounded-lg h-8 text-sm border-2 border-white text-white font-semibold bg-[blue] items-center w-20 hover:bg-white hover:text-[blue]'>sign up</button>
